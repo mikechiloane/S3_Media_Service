@@ -13,7 +13,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("/api/s3")
-public class S3FileController {
+class S3FileController {
 
   private final LapengImageService lapengImageService;
 
